@@ -24,9 +24,10 @@ h1 {
 }
 
 nav {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
-  flex-direction: column;
+  flex-direction: column; */
+
 }
 
 nav li {
@@ -243,6 +244,9 @@ footer {
 @media only screen and (min-width: 960px) {
   #nav-menu {
     box-shadow: none;
+    padding: 0;
+    width: 1000px;
+    margin: 0 auto;
   }
 
   #nav-menu li {
